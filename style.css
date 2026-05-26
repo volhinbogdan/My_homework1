@@ -1,0 +1,89 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #1C5D99;
+    color: white;
+    margin: 0;
+}
+header {
+    background-color: #639FAB;
+    text-align: center;
+    padding: 20px;
+}
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-style: italic;
+    margin-top: 10px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 15px 25px;
+    line-height: 3em;
+}
+nav a:hover {
+    border-bottom: 2px solid black;
+}
+main {
+    padding: 20px;
+}
+img {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    width: 250px;
+}
+ul {
+    margin-top: 20px;
+    font-size: 18px;
+    color: gray;
+}
+footer {
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #639FAB;
+}
+.content-with-image {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.content-with-image img {
+    width: 250px;
+    border-radius: 8px;
+}
+
+.text {
+    max-width: 600px;
+}
+input, textarea {
+    width: 300px;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #639FAB;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black-blue;
+}
